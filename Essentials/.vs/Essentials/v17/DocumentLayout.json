@@ -3,44 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\natio\\Downloads\\ModTemplate 1.0.0\\ModTemplate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\InfoShouldBePublic.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\InfoShouldBePublic.csproj|solutionrelative:modtemplate\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\notifications\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|solutionrelative:modtemplate\\notifications\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\patches\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|solutionrelative:modtemplate\\patches\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\notifications\\playerleave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|solutionrelative:modtemplate\\notifications\\playerleave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\InfoShouldBePublic.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\directory.build.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\InfoShouldBePublic.csproj|solutionrelative:modtemplate\\directory.build.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\notifications\\playerjoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|solutionrelative:modtemplate\\notifications\\playerjoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|solutionrelative:modtemplate\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\patches\\boards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|solutionrelative:modtemplate\\patches\\boards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\console\\console.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|solutionrelative:modtemplate\\console\\console.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\patches\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|solutionrelative:modtemplate\\patches\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|solutionrelative:modtemplate\\plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\notifications\\playerjoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|solutionrelative:modtemplate\\notifications\\playerjoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\notifications\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|solutionrelative:modtemplate\\notifications\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\console\\serverdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|solutionrelative:modtemplate\\console\\serverdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\InfoShouldBePublic.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\InfoShouldBePublic.csproj|solutionrelative:modtemplate\\plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\console\\console.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|solutionrelative:modtemplate\\console\\console.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natio\\Downloads\\cooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocoolio\\ui (1)\\ui\\ui\\InfoMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -52,8 +44,16 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natio\\Downloads\\cooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocoolio\\ui (1)\\ui\\ui\\GTUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\InfoShouldBePublic.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\directory.build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\InfoShouldBePublic.csproj|solutionrelative:modtemplate\\directory.build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\notifications\\playerleave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|solutionrelative:modtemplate\\notifications\\playerleave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\directory.build.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|solutionrelative:modtemplate\\directory.build.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|c:\\users\\natio\\downloads\\modtemplate 1.0.0\\modtemplate\\modtemplate\\directory.build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DF097EC3-8156-43B0-90B1-14C27FA5F51D}|ModTemplate\\Essentials.csproj|solutionrelative:modtemplate\\directory.build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,18 +62,18 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 266,
-          "SelectedChildIndex": 14,
+          "DockedHeight": 285,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Library.cs",
               "DocumentMoniker": "C:\\Users\\natio\\Downloads\\ModTemplate 1.0.0\\ModTemplate\\ModTemplate\\Notifications\\Library.cs",
               "RelativeDocumentMoniker": "ModTemplate\\Notifications\\Library.cs",
               "ToolTip": "C:\\Users\\natio\\Downloads\\ModTemplate 1.0.0\\ModTemplate\\ModTemplate\\Notifications\\Library.cs",
               "RelativeToolTip": "ModTemplate\\Notifications\\Library.cs",
-              "ViewState": "AgIAADYAAACAMjMzMzMfwEkAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAADAZWZmZmYqwAgAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T03:34:50.605Z",
               "IsPinned": true,
@@ -81,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "PlayerLeave.cs",
               "DocumentMoniker": "C:\\Users\\natio\\Downloads\\ModTemplate 1.0.0\\ModTemplate\\ModTemplate\\Notifications\\PlayerLeave.cs",
               "RelativeDocumentMoniker": "ModTemplate\\Notifications\\PlayerLeave.cs",
@@ -89,25 +89,20 @@
               "RelativeToolTip": "ModTemplate\\Notifications\\PlayerLeave.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T03:45:14.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T03:45:14.262Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "PlayerJoin.cs",
               "DocumentMoniker": "C:\\Users\\natio\\Downloads\\ModTemplate 1.0.0\\ModTemplate\\ModTemplate\\Notifications\\PlayerJoin.cs",
               "RelativeDocumentMoniker": "ModTemplate\\Notifications\\PlayerJoin.cs",
               "ToolTip": "C:\\Users\\natio\\Downloads\\ModTemplate 1.0.0\\ModTemplate\\ModTemplate\\Notifications\\PlayerJoin.cs",
               "RelativeToolTip": "ModTemplate\\Notifications\\PlayerJoin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAABgZmZmZmYkwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T03:44:42.769Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -117,20 +112,20 @@
               "RelativeDocumentMoniker": "ModTemplate\\Patches\\Startup.cs",
               "ToolTip": "C:\\Users\\natio\\Downloads\\ModTemplate 1.0.0\\ModTemplate\\ModTemplate\\Patches\\Startup.cs",
               "RelativeToolTip": "ModTemplate\\Patches\\Startup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T03:26:08.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Boards.cs",
               "DocumentMoniker": "C:\\Users\\natio\\Downloads\\ModTemplate 1.0.0\\ModTemplate\\ModTemplate\\Patches\\Boards.cs",
               "RelativeDocumentMoniker": "ModTemplate\\Patches\\Boards.cs",
               "ToolTip": "C:\\Users\\natio\\Downloads\\ModTemplate 1.0.0\\ModTemplate\\ModTemplate\\Patches\\Boards.cs",
               "RelativeToolTip": "ModTemplate\\Patches\\Boards.cs",
-              "ViewState": "AgIAABwAAADA//////8fwCkAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAABANzMzMzMbwBQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T03:21:45.507Z",
               "EditorCaption": ""
@@ -143,40 +138,40 @@
               "RelativeDocumentMoniker": "ModTemplate\\Console\\Console.cs",
               "ToolTip": "C:\\Users\\natio\\Downloads\\ModTemplate 1.0.0\\ModTemplate\\ModTemplate\\Console\\Console.cs",
               "RelativeToolTip": "ModTemplate\\Console\\Console.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAEwB8AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAADIAAACAmZmZmZkTwB8AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T03:01:16.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "ServerData.cs",
               "DocumentMoniker": "C:\\Users\\natio\\Downloads\\ModTemplate 1.0.0\\ModTemplate\\ModTemplate\\Console\\ServerData.cs",
               "RelativeDocumentMoniker": "ModTemplate\\Console\\ServerData.cs",
               "ToolTip": "C:\\Users\\natio\\Downloads\\ModTemplate 1.0.0\\ModTemplate\\ModTemplate\\Console\\ServerData.cs",
               "RelativeToolTip": "ModTemplate\\Console\\ServerData.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAuwLsAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAIAwwBUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T03:00:05.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "PluginInfo.cs",
               "DocumentMoniker": "C:\\Users\\natio\\Downloads\\ModTemplate 1.0.0\\ModTemplate\\ModTemplate\\PluginInfo.cs",
               "RelativeDocumentMoniker": "ModTemplate\\PluginInfo.cs",
               "ToolTip": "C:\\Users\\natio\\Downloads\\ModTemplate 1.0.0\\ModTemplate\\ModTemplate\\PluginInfo.cs",
               "RelativeToolTip": "ModTemplate\\PluginInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAgMzMzMzMbwA8AAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T02:23:27.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "InfoMenu.cs",
               "DocumentMoniker": "C:\\Users\\natio\\Downloads\\cooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocoolio\\ui (1)\\ui\\ui\\InfoMenu.cs",
               "RelativeDocumentMoniker": "..\\..\\cooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocoolio\\ui (1)\\ui\\ui\\InfoMenu.cs",
@@ -184,12 +179,11 @@
               "RelativeToolTip": "..\\..\\cooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocoolio\\ui (1)\\ui\\ui\\InfoMenu.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAMBdwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T07:25:56.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T07:25:56.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "AccountCreationDate.cs",
               "DocumentMoniker": "C:\\Users\\natio\\Downloads\\cooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocoolio\\ui (1)\\ui\\ui\\AccountCreationDate.cs",
               "RelativeDocumentMoniker": "..\\..\\cooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocoolio\\ui (1)\\ui\\ui\\AccountCreationDate.cs",
@@ -197,12 +191,11 @@
               "RelativeToolTip": "..\\..\\cooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocoolio\\ui (1)\\ui\\ui\\AccountCreationDate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T07:24:14.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T07:24:14.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "GTUtility.cs",
               "DocumentMoniker": "C:\\Users\\natio\\Downloads\\cooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocoolio\\ui (1)\\ui\\ui\\GTUtility.cs",
               "RelativeDocumentMoniker": "..\\..\\cooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocoolio\\ui (1)\\ui\\ui\\GTUtility.cs",
@@ -210,12 +203,11 @@
               "RelativeToolTip": "..\\..\\cooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocooliocoolio\\ui (1)\\ui\\ui\\GTUtility.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAAAqwIIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T07:23:52.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T07:23:52.331Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Directory.Build.targets",
               "DocumentMoniker": "C:\\Users\\natio\\Downloads\\ModTemplate 1.0.0\\ModTemplate\\ModTemplate\\Directory.Build.targets",
               "RelativeDocumentMoniker": "ModTemplate\\Directory.Build.targets",
@@ -223,8 +215,7 @@
               "RelativeToolTip": "ModTemplate\\Directory.Build.targets",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-05-19T18:07:41.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T18:07:41.212Z"
             },
             {
               "$type": "Document",
@@ -236,8 +227,7 @@
               "RelativeToolTip": "ModTemplate\\Directory.Build.props",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-05-19T18:07:37.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T18:07:37.872Z"
             },
             {
               "$type": "Document",
@@ -247,7 +237,7 @@
               "RelativeDocumentMoniker": "ModTemplate\\Plugin.cs",
               "ToolTip": "C:\\Users\\natio\\Downloads\\ModTemplate 1.0.0\\ModTemplate\\ModTemplate\\Plugin.cs",
               "RelativeToolTip": "ModTemplate\\Plugin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAABgZmZmZmY8wEEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T18:01:00.369Z",
               "EditorCaption": ""
@@ -259,7 +249,7 @@
           ]
         },
         {
-          "DockedHeight": 69,
+          "DockedHeight": 115,
           "SelectedChildIndex": -1,
           "Children": [
             {

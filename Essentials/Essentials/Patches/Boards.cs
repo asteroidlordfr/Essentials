@@ -1,55 +1,34 @@
-﻿
+﻿using GorillaNetworking;
 using Photon.Pun;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using TMPro;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
-using static Essentials.Plugin;
 
 namespace Essentials.Patches
 {
-    internal class Boards
+    internal class Boards : MonoBehaviourPunCallbacks
     {
-        // took this tos thing from the big iidk
+        static TextMeshPro text;
+        float delta;
+        int fps;
+        float timer;
+        static float people;
 
-        private static bool acceptedTOS;
-        public static void Tweaks()
+        public static bool starttime;
+
+        public static void Sequence()
         {
-            GameObject RoomObject = GameObject.Find("Miscellaneous Scripts").transform.Find("PrivateUIRoom_HandRays").gameObject;
-            if (RoomObject == null)
-                return;
-
-            HandRayController HandRayController = RoomObject.GetComponent<HandRayController>();
-            PrivateUIRoom PrivateUIRoom = RoomObject.GetComponent<PrivateUIRoom>();
-
-            if (!acceptedTOS && PrivateUIRoom)
-            {
-                HandRayController.DisableHandRays();
-                PrivateUIRoom.StopForcedOverlay();
-
-                RoomObject.SetActive(false);
-                acceptedTOS = true;
-            }
+            var obj = GameObject.Find("Environment Objects/LocalObjects_Prefab/TreeRoom/COCBodyText_TitleData");
+            text = obj.GetComponent<TextMeshPro>();
+            text.richText = true;
+            text.alignment = TextAlignmentOptions.Midline;
+            people = PhotonNetworkController.Instance.TotalUsers() + 1000; // slightly not accurate but i couldn't get it to show the right player count, it would only show the first time it updated 
+            starttime = true;
         }
 
-        public static void UpdateB()
+        void LateUpdate()
         {
-            if (PhotonNetwork.InRoom)
-            {
-                GameObject titleData = GameObject.Find("Environment Objects/LocalObjects_Prefab/TreeRoom/COCBodyText_TitleData");
-                if (titleData) titleData.GetComponent<TextMeshPro>().richText = true;
-                if (titleData) titleData.GetComponent<TextMeshPro>().alignment = TextAlignmentOptions.Midline;
-                if (titleData) titleData.GetComponent<TextMeshPro>().text = $"Thanks for using Essentials, your on version {PluginInfo.Version} and there is {PhotonNetwork.CountOfPlayersInRooms} players online.\n\nRoom Info:\n\nRoom: {PhotonNetwork.CurrentRoom}\nNickname: {PhotonNetwork.NickName}\nPlayers in room: {PhotonNetwork.CountOfPlayers}/10\nFPS: {FPS.FPSCount}";
-            }
-            else
-            {
-                GameObject titleData = GameObject.Find("Environment Objects/LocalObjects_Prefab/TreeRoom/COCBodyText_TitleData");
-                if (titleData) titleData.GetComponent<TextMeshPro>().richText = true;
-                if (titleData) titleData.GetComponent<TextMeshPro>().alignment = TextAlignmentOptions.Midline;
-                if (titleData) titleData.GetComponent<TextMeshPro>().text = $"Thanks for using Essentials, your on version {PluginInfo.Version} and there is {PhotonNetwork.CountOfPlayersInRooms} players online.\n\nRoom Info:\n<color=red>You must be in a room to fetch room information.";
-            }
+
         }
     }
 }

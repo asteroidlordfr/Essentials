@@ -23,12 +23,19 @@ using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Essentials
 {
     [BepInPlugin(PluginInfo.Package, PluginInfo.Name, PluginInfo.Version)]
     internal class Plugin : BaseUnityPlugin
     {
+        float delta;
+        int fps;
+        float timer;
+        static float people;
+        private TextMeshPro text;
+
         void Start()
         {
             GorillaTagger.OnPlayerSpawned(OnGameInit);
@@ -36,91 +43,33 @@ namespace Essentials
 
         void OnGameInit()
         {
+            var obj = GameObject.Find("Environment Objects/LocalObjects_Prefab/TreeRoom/COCBodyText_TitleData");
+            text = obj.GetComponent<TextMeshPro>();
             Startup.Boot();
-
-            #region Console
-
-            string ConsoleGUID = "goldentrophy_Console"; // Do not change this, it's used to get other instances of Console
-            GameObject ConsoleObject = GameObject.Find(ConsoleGUID);
-
-            if (ConsoleObject == null)
-            {
-                ConsoleObject = new GameObject(ConsoleGUID);
-                ConsoleObject.AddComponent<Console.Console>();
-            }
-            else
-            {
-                if (ConsoleObject.GetComponents<Component>()
-                    .Select(c => c.GetType().GetField("ConsoleVersion",
-                        BindingFlags.Public |
-                        BindingFlags.Static |
-                        BindingFlags.FlattenHierarchy))
-                    .Where(f => f != null && f.IsLiteral && !f.IsInitOnly)
-                    .Select(f => f.GetValue(null))
-                    .FirstOrDefault() is string consoleVersion)
-                {
-                    if (Console.ServerData.VersionToNumber(consoleVersion) < Console.ServerData.VersionToNumber(Console.Console.ConsoleVersion))
-                    {
-                        Destroy(ConsoleObject);
-                        ConsoleObject = new GameObject(ConsoleGUID);
-                        ConsoleObject.AddComponent<Console.Console>();
-                    }
-                }
-            }
-
-            if (Console.ServerData.ServerDataEnabled)
-                ConsoleObject.AddComponent<Console.ServerData>();
-
-            Debug.Log("[Essentials] integrated console");
-            #endregion
-            #region Sodium
-            Application.targetFrameRate = 144;
-            QualitySettings.SetQualityLevel(1);
-            QualitySettings.antiAliasing = 0;
-            QualitySettings.shadows = 0;
-            QualitySettings.particleRaycastBudget = 0;
-            QualitySettings.pixelLightCount = 0;
-            QualitySettings.anisotropicFiltering = 0;
-            QualitySettings.realtimeReflectionProbes = false;
-            QualitySettings.globalTextureMipmapLimit = 0;
-            QualitySettings.lodBias = 0.0f;
-            QualitySettings.pixelLightCount = 0;
-            QualitySettings.realtimeReflectionProbes = false;
-            QualitySettings.vSyncCount = 0;
-            QualitySettings.enableLODCrossFade = false;
-            QualitySettings.maximumLODLevel = 0;
-            foreach (Camera camera in Camera.allCameras)
-            {
-                camera.allowMSAA = false;
-                camera.focusDistance = 0;
-                camera.farClipPlane = 50.0f;
-                camera.focusDistance = 1f;
-                camera.allowHDR = false;
-            }
-            Camera.main.farClipPlane = 50f;
-            Camera.main.anamorphism = 0.0f;
-            Debug.Log("[Essentials] integrated sodium");
-            #endregion
-            #region Tweaks
-            Patches.Boards.Tweaks();
-            Debug.Log("[Essentials] sucessfully added tweaks");
-            #endregion
         }
 
         void LateUpdate()
         {
-            Boards.UpdateB();
-        }
-
-        public class FPS : MonoBehaviour
-        {
-            public static int FPSCount { get; private set; }
-            private float delta = 0f;
-            void Update()
+            if (Boards.starttime)
             {
                 delta += (Time.unscaledDeltaTime - delta) * 0.1f;
-                FPSCount = Mathf.RoundToInt(1f / delta);
+                fps = Mathf.RoundToInt(1f / delta);
+                timer += Time.unscaledDeltaTime;
+                if (timer >= 1f)
+                {
+                    timer = 0f;
+                    string whattimeisit = DateTime.Now.ToString("h:mmtt").Replace(" ", "");
+                    if (PhotonNetwork.InRoom)
+                    {
+                        text.text = $"Thanks for using Essentials, your on version {PluginInfo.Version} and there is {people} players online.\n\nRoom Info:\n\n{PhotonNetwork.CurrentRoom}\nNickname: {PhotonNetwork.NickName}\nPlayers in room: {PhotonNetwork.CurrentRoom.PlayerCount}/10\nFPS: {fps}\nPing: {PhotonNetwork.GetPing()}\nRegion: {PhotonNetwork.CloudRegion}\n\nTime: {whattimeisit}";
+                    }
+                    else
+                    {
+                        text.text = $"Thanks for using Essentials, your on version {PluginInfo.Version} and there is {people} players online.\n\nRoom Info:\n<color=red>You must be in a room to fetch room information.";
+                    }
+                }
             }
         }
+
     }
 }

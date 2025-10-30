@@ -8,7 +8,7 @@ namespace Essentials
     {
         public const string Package = "com.AsteroidLord.Essentials";
         public const string Name = "Essentials";
-        public const string Version = "5.3.0";
+        public const string Version = "1.0.1";
         public const string Author = "AsteroidLord";
 
         public const string ASCII = @"

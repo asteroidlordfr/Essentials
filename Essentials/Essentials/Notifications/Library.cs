@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 namespace Essentials.Notifications
 {
+    // Credits to Lars (I could of made my own but I made the mod at night when i was tired and i'm lazy)
     [BepInPlugin("org.gorillatag.lars.notificationlibrary", "EssentialsLibrary", "1.0.5")]
     public class NotifiLib : BaseUnityPlugin
     {
